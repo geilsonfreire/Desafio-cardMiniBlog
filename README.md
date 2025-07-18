@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="{https://geilsonfreire.github.io/Desafio_FAQ}">
+    <a href="https://geilsonfreire.github.io/Desafio-cardMiniBlog/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://devchallenges.io/editor/solution/12661}">
+    <a href="https://github.com/geilsonfreire/Desafio-cardMiniBlog">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenge/card-blog-challenge">
+    <a href="https://devchallenges.io/editor/solution/12661">
       Challenge
     </a>
   </h3>
@@ -40,7 +40,7 @@ Este projeto simula uma um cartão de blog com foco em acessibilidade, responsiv
 
 <img src="./thumbnail.jpg" alt="thumbnail" />
 
-[🔗 Acesse o projeto online](https://geilsonfreire.github.io/Desafio_FAQ/)
+[🔗 Acesse o projeto online](https://geilsonfreire.github.io/Desafio-cardMiniBlog/)
 
 ---
 
