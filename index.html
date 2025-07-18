@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de card mini blog, acessíveis e responsivas. Criado com HTML e CSS puros como desafio do devChallenges.io."
+    />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #e5eaf0;
+        font-family: 'Arial', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .card {
+        width: 368px;
+        background-color: #ffffff;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      }
+
+      .card-image {
+        width: 100%;
+        height: 152px;
+        object-fit: cover;
+        background-color: #f5dcdc;
+      }
+
+      .card-content {
+        padding: 16px;
+      }
+
+      .card-tag {
+        display: inline-block;
+        background-color: #f3e8ff;
+        color: #883ae1;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 4px 12px;
+        border-radius: 16px;
+        margin-bottom: 16px;
+      }
+
+      .card-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #20293a;
+        margin-bottom: 6px;
+      }
+
+      .card-description {
+        font-size: 14px;
+        color: #6c727f;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+
+      .card-author {
+        font-size: 12px;
+        color: #6c727f;
+      }
+
+      footer {
+        margin-top: 40px;
+        font-size: 14px;
+        color: rgb(55, 65, 81);
+        text-align: center;
+      }
+
+      footer a {
+        color: inherit;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <img
+        alt="Cacto em vaso"
+        src="./resources/Cactus.jpg"
+        class="card-image"
+      />
+
+      <div class="card-content">
+        <span class="card-tag">Design</span>
+        <h1 class="card-title">Embracing Minimalism</h1>
+        <p class="card-description">
+          From minimalist sculptures to minimalist paintings, this blog will
+          inspire you to appreciate the beauty that lies in simplicity.
+        </p>
+        <hr />
+        <br />
+        <p class="card-author">Geilson Freire</p>
+      </div>
+    </main>
+
+    <footer>
+      Coded by
+      <a
+        href="https://github.com/geilsonfreire"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Geilson Freire</a
+      >
+      | Challenge by
+      <a
+        href="https://www.devchallenges.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
+        >devChallenges.io</a
+      >
+    </footer>
+  </body>
+</html>
